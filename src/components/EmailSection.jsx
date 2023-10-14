@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, {  useRef } from 'react'
 import GithubIcon from '../images/github-icon.svg'
 import LinkedinIcon from '../images/linkedin-icon.svg'
 import emailjs from '@emailjs/browser'
