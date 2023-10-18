@@ -29,10 +29,10 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem totam
-            molestias exercitationem cum, aut, magni voluptatibus non error
-            earum ipsam est possimus harum rerum nemo tenetur officia molestiae
-            velit dolor!
+            I am an enthusiastic, adaptable, focused and motivated Front-end
+            Developer who is seeking an opportunity to contribute my knowledge
+            into interesting projects. I am excited to be a part of a team that
+            values creativity, innovation, and user-centric design.
           </p>
 
           <div>
