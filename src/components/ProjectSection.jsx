@@ -8,8 +8,8 @@ const projectsData = [
   {
     id: 1,
     title: 'React Galaxy Website',
-    description:
-      'The website was developed as a responsive and adaptive website for corporates or bloggers in general',
+    description: `The website was developed as a responsive and adaptive website for corporates or bloggers in general.
+	  (HTML5/CSS3/JavaScript/React)`,
     image: imageProject1,
     gitUrl: 'https://github.com/AnnaBilokon/Galaxy-website-react',
     previewUrl: 'https://moonlightsite.netlify.app/',
@@ -17,8 +17,9 @@ const projectsData = [
   {
     id: 2,
     title: 'Fitness Website',
-    description:
-      'The website that provides information about the exercises which users can find using the search or the classification of exercises depending on the goals and required equipment',
+    description: `The website that provides information about the exercises which users 
+	  can find using the search or the classification of exercises depending
+	   on the goals and required equipment.(HTML5/CSS3/JavaScript/React/API/Material UI)`,
     image: imageProject2,
     gitUrl: 'https://github.com/AnnaBilokon/Fitness-project',
     previewUrl: 'https://fitness-api.netlify.app/',
@@ -26,8 +27,8 @@ const projectsData = [
   {
     id: 3,
     title: 'Barbershop Application',
-    description:
-      'The expirience of creating a landing webpage using layouts from Figma. It serves as an example of an adaptive and cross-browser website',
+    description: `The expirience of creating a landing webpage using layouts from Figma. It serves as an example
+	   of an adaptive and cross-browser website. (HTML5/CSS3/JavaScript/Figma )`,
     image: imageProject3,
     gitUrl: 'https://github.com/AnnaBilokon/barbershop-Figma-/',
     previewUrl: 'https://16uth.csb.app/',
