@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: 'Skills',
     id: 'skills',
     content: (
-      <ul className="list-disc pl-2">
+      <ul className=" text-[#ADB7BE] list-disc pl-2">
         <li>HTML/CSS</li>
         <li>JavaScript</li>
         <li>React</li>
@@ -22,7 +22,7 @@ const TAB_DATA = [
     title: 'Education',
     id: 'education',
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="text-[#ADB7BE] list-disc pl-2">
         <li>Educational center SkillUp</li>
         <li>Taras Shevchenko National University of Kyiv</li>
       </ul>
@@ -32,7 +32,7 @@ const TAB_DATA = [
     title: 'Certifications',
     id: 'certifications',
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="text-[#ADB7BE] list-disc pl-2">
         <li>Front-End Developer Course Certificate № KV 00345</li>
       </ul>
     ),
@@ -50,7 +50,7 @@ const AboutSection = () => {
   }
 
   if (isPending) {
-    return <b className="pending">Loding...</b>;
+    return <b className="pending">Loding...</b>
   }
 
   return (
@@ -61,7 +61,7 @@ const AboutSection = () => {
         </a>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-[#ADB7BE] lg:text-lg">
             My journey into web development began when I realized the power of
             code in bringing creative ideas to life. I am constantly inspired by
             the ever-evolving nature of the web, and I am committed to staying

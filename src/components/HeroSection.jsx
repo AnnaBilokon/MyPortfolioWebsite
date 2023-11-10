@@ -27,7 +27,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#ADB7BE] sm:text-lg mb-6 lg:text-xl">
             I am an enthusiastic, adaptable, focused and motivated Front-end
             Developer who is seeking an opportunity to contribute my knowledge
             into interesting projects. I am excited to be a part of a team that
