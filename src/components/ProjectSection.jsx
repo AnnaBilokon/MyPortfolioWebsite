@@ -3,8 +3,22 @@ import ProjectCard from './ProjectCard'
 import imageProject1 from '../images/project1.png'
 import imageProject2 from '../images/project2.png'
 import imageProject3 from '../images/project3.png'
+import imageProject4 from '../images/project4.png'
 
 const projectsData = [
+  {
+    id: 4,
+    title: 'UX/UI Design Case Study',
+    description: `This project is a design case study project for an audiobook app for children that will help occupy 
+	child's time productively. While working on the project, I studied the principles 
+	of UX/UI design and the design thinking process. I also have improved my skills in Figma, enhancing my proficiency in creating prototypes and wireframes. 
+	I worked on developing visual design elements and accessibility features for this application.`,
+    image: imageProject4,
+    gitUrl:
+      'https://www.behance.net/gallery/186796671/UXUI-Design-Case-Study-The-magic-library',
+    previewUrl:
+      'https://www.behance.net/gallery/186796671/UXUI-Design-Case-Study-The-magic-library',
+  },
   {
     id: 1,
     title: 'React Galaxy Website',
