@@ -18,7 +18,7 @@ const HeroSection = () => {
                 1000,
                 'Front-End Developer',
                 1000,
-                'Web Developer',
+                'UI/UX Designer',
                 1000,
               ]}
               wrapper="span"
@@ -29,9 +29,10 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] sm:text-lg mb-6 lg:text-xl">
             I am an enthusiastic, adaptable, focused and motivated Front-end
-            Developer who is seeking an opportunity to contribute my knowledge
-            into interesting projects. I am excited to be a part of a team that
-            values creativity, innovation, and user-centric design.
+            Developer and UX/UI Designer who is seeking an opportunity to
+            contribute my knowledge into interesting projects. I am excited to
+            be a part of a team that values creativity, innovation, and
+            user-centric design.
           </p>
 
           <div>

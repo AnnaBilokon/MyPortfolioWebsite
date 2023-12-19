@@ -15,6 +15,7 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>APIs</li>
         <li>TailwindCSS</li>
+        <li>Figma</li>
       </ul>
     ),
   },
@@ -62,12 +63,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-[#ADB7BE] lg:text-lg">
-            My journey into web development began when I realized the power of
-            code in bringing creative ideas to life. I am constantly inspired by
-            the ever-evolving nature of the web, and I am committed to staying
-            up-to-date with industry trends, as it allows me to continually
-            acquire new skills, get fresh challenges and grow as a proficient
-            developer by solving problems.
+            My journey into web development and design began when I realized the
+            power of code in bringing creative ideas to life. I am constantly
+            inspired by the ever-evolving nature of the web, and I am committed
+            to staying up-to-date with industry trends, as it allows me to
+            continually acquire new skills, get fresh challenges and grow as a
+            proficient developer by solving problems.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
