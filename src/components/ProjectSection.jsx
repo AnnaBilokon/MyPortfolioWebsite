@@ -4,6 +4,7 @@ import imageProject1 from '../images/project1.png'
 import imageProject2 from '../images/project2.png'
 import imageProject3 from '../images/project3.png'
 import imageProject4 from '../images/project4.png'
+import imageProject5 from '../images/project5.png'
 
 const projectsData = [
   {
@@ -46,6 +47,14 @@ const projectsData = [
     image: imageProject3,
     gitUrl: 'https://github.com/AnnaBilokon/barbershop-Figma-/',
     previewUrl: 'https://16uth.csb.app/',
+  },
+  {
+    id: 5,
+    title: 'My portfolio project',
+    description: `The portfolio website project that represents me, my skills and projects. (HTML5/CSS3/JavaScript/React,Tailwind) `,
+    image: imageProject5,
+    gitUrl: 'https://github.com/AnnaBilokon/MyPortfolioWebsite',
+    previewUrl: 'https://myportfolioab.netlify.app/',
   },
 ]
 
