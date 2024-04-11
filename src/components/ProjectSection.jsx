@@ -5,6 +5,7 @@ import imageProject2 from '../images/project2.png'
 import imageProject3 from '../images/project3.png'
 import imageProject4 from '../images/project4.png'
 import imageProject5 from '../images/project5.png'
+import imageProject6 from '../images/project6.png'
 
 const projectsData = [
   {
@@ -19,6 +20,17 @@ const projectsData = [
       'https://www.behance.net/gallery/186796671/UXUI-Design-Case-Study-The-magic-library',
     previewUrl:
       'https://www.behance.net/gallery/186796671/UXUI-Design-Case-Study-The-magic-library',
+  },
+  {
+    id: 6,
+    title: 'E-commerce website',
+    description: `ReadMe Bookshop website that can be used as an online store, 
+	where you can easily select the desired product by category, find out detailed information 
+	about it, add products to the cart and see the total amount for several products. New features are in progress
+	(HTML5/CSS3/JavaScript/React)`,
+    image: imageProject6,
+    gitUrl: 'https://github.com/AnnaBilokon/ReadMeShop',
+    previewUrl: 'https://readmeshop.netlify.app/',
   },
   {
     id: 1,
