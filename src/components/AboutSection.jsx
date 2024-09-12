@@ -51,7 +51,7 @@ const AboutSection = () => {
   }
 
   if (isPending) {
-    return <b className="pending">Loding...</b>
+    return <b className="pending">Loading...</b>
   }
 
   return (
