@@ -13,6 +13,7 @@ const TAB_DATA = [
         <li>JavaScript</li>
         <li>React</li>
         <li>Node.js</li>
+        <li>R language</li>
         <li>APIs</li>
         <li>TailwindCSS</li>
         <li>Figma</li>
