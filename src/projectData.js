@@ -1,6 +1,6 @@
 import imageProject1 from './images/project1.png'
 import imageProject2 from './images/project2.png'
-import imageProject3 from './images/project3.png'
+// import imageProject3 from './images/project3.png'
 import imageProject4 from './images/project4.png'
 import imageProject5 from './images/project5.png'
 import imageProject6 from './images/project6.png'
