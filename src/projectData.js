@@ -28,7 +28,7 @@ export const projectsData = [
 		gitUrl:
 		  'https://github.com/AnnaBilokon/Tic-Tac-Game',
 		previewUrl:
-		  'https://tictak-toe-game.netlify.app/',
+		  'https://tictactoes-game.netlify.app/',
 	  },
 	{
 	  id: 4,
