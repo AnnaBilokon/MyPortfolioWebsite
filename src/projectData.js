@@ -18,6 +18,7 @@ export const projectsData = [
 		image: imageProject8,
 		previewUrl:
 		  'https://illuminum.shinyapps.io/gaia-lite/',
+		labels: ['Shiny R', 'CSS', 'Figma', 'Tailwind', 'RStudio', 'Git'],
 	  },
 	{
 		id: 7,
@@ -29,6 +30,7 @@ export const projectsData = [
 		  'https://github.com/AnnaBilokon/Tic-Tac-Game',
 		previewUrl:
 		  'https://tictactoes-game.netlify.app/',
+		  labels: ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'RStudio'],
 	  },
 	{
 	  id: 4,
@@ -42,6 +44,7 @@ export const projectsData = [
 		'https://www.behance.net/gallery/186796671/UXUI-Design-Case-Study-The-magic-library',
 	  previewUrl:
 		'https://www.behance.net/gallery/186796671/UXUI-Design-Case-Study-The-magic-library',
+		labels: ['Shiny R', 'CSS', 'Figma', 'Tailwind', 'RStudio']
 	},
 	{
 	  id: 6,
@@ -53,6 +56,7 @@ export const projectsData = [
 	  image: imageProject6,
 	  gitUrl: 'https://github.com/AnnaBilokon/ReadMeShop',
 	  previewUrl: 'https://readmeshop.netlify.app/',
+	  labels: ['Shiny R', 'CSS', 'Figma', 'Tailwind', 'RStudio']
 	},
 	{
 	  id: 1,
@@ -62,6 +66,7 @@ export const projectsData = [
 	  image: imageProject1,
 	  gitUrl: 'https://github.com/AnnaBilokon/Galaxy-website-react',
 	  previewUrl: 'https://moonlightsite.netlify.app/',
+	  labels: ['Shiny R', 'CSS', 'Figma', 'Tailwind', 'RStudio']
 	},
 	{
 	  id: 2,
@@ -72,6 +77,7 @@ export const projectsData = [
 	  image: imageProject2,
 	  gitUrl: 'https://github.com/AnnaBilokon/Fitness-project',
 	  previewUrl: 'https://fitness-api.netlify.app/',
+	  labels: ['Shiny R', 'CSS', 'Figma', 'Tailwind', 'RStudio']
 	},
 	// {
 	//   id: 3,
@@ -89,6 +95,7 @@ export const projectsData = [
 	  image: imageProject5,
 	  gitUrl: 'https://github.com/AnnaBilokon/MyPortfolioWebsite',
 	  previewUrl: 'https://myportfolioab.netlify.app/',
+	  labels: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind', 'Node js']
 	},
   ]
   
