@@ -1,77 +1,61 @@
 'use client'
-import React, { useTransition, useState } from 'react'
+import React from 'react'
 import aboutImage from '../images/about-image.png'
-import TabButton from './TabButton'
-
-const TAB_DATA = [
-  {
-    title: 'Skills',
-    id: 'skills',
-    content: (
-      <ul className=" text-[#ADB7BE] list-disc pl-2">
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>R language</li>
-        <li>APIs</li>
-        <li>TailwindCSS</li>
-        <li>Figma</li>
-      </ul>
-    ),
-  },
-  {
-    title: 'Education',
-    id: 'education',
-    content: (
-      <ul className="text-[#ADB7BE] list-disc pl-2">
-        <li>Educational center SkillUp</li>
-        <li>Taras Shevchenko National University of Kyiv</li>
-      </ul>
-    ),
-  },
-  {
-    title: 'Certifications',
-    id: 'certifications',
-    content: (
-      <ul className="text-[#ADB7BE] list-disc pl-2">
-        <li>Front-End Developer Course Certificate № KV 00345</li>
-      </ul>
-    ),
-  },
-]
 
 const AboutSection = () => {
-  const [tab, setTab] = useState('skills')
-  const [isPending, startTransition] = useTransition()
-
-  const handleTabChange = (id) => {
-    startTransition(() => {
-      setTab(id)
-    })
-  }
-
-  if (isPending) {
-    return <b className="pending">Loading...</b>
-  }
-
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-12 px-4 xl:gap-16 sm:py-16 xl:px-6">
         <a rel="preload" href="/">
           <img src={aboutImage} width={500} height={500} alt="aboutPic" />
         </a>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-[#ADB7BE] lg:text-lg">
-            My journey into web development and design began when I realized the
-            power of code in bringing creative ideas to life. I am constantly
-            inspired by the ever-evolving nature of the web, and I am committed
-            to staying up-to-date with industry trends, as it allows me to
-            continually acquire new skills, get fresh challenges and grow as a
-            proficient developer by solving problems.
+          <h2 className="text-4xl font-bold text-primary-light dark:text-primary-dark mb-4">
+            About Me
+          </h2>
+          <p className="text-primary-light dark:text-primary-dark lg:text-lg">
+            My <span className="font-semibold text-[#bb86fc]">empathy </span>{' '}
+            makes me passionate about making applications that are accessible to
+            everyone and focused on{' '}
+            <span className="font-semibold text-[#bb86fc]">equity, </span>{' '}
+            ensuring all users can easily understand and navigate them.
+            <br />I love{' '}
+            <span className="font-semibold text-[#bb86fc]">
+              solving problems
+            </span>{' '}
+            and making things work! I work great in teams and enjoy
+            collaborating with others to bring ideas to life.
+            <br />I like figuring out the best way to solve tricky challenges,
+            especially when it helps improve the user experience for{' '}
+            <span className="font-semibold text-[#bb86fc]">diverse</span>{' '}
+            audiences.
+            <br />I am quick to pick up
+            <span className="font-semibold text-[#bb86fc]">
+              {' '}
+              new technologies{' '}
+            </span>{' '}
+            and always excited{' '}
+            <span className="font-semibold text-[#bb86fc]">to learn </span>{' '}
+            something new. I care about creating applications that not only look
+            good, but are also accessible and intuitive for every user.
+            <br />
+            <span className="font-semibold text-[#bb86fc]">
+              Paying attention to the little details
+            </span>{' '}
+            is super important to me because I know they can make or break the
+            user experience.
+            <br />
+            When it comes to deadlines, I’m all about staying{' '}
+            <span className="font-semibold text-[#bb86fc]">organized</span> and
+            getting things done on time.
+            <br />
+            Whether it’s a big project or a small one, I’m focused on creating
+            products that are{' '}
+            <span className="font-semibold text-[#bb86fc]">
+              understandible, discoverable and easy to use for everyone.{' '}
+            </span>{' '}
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          {/* <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange('skills')}
               active={tab === 'skills'}
@@ -96,7 +80,7 @@ const AboutSection = () => {
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
