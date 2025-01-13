@@ -1,17 +1,24 @@
 import React from 'react'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+const ProjectCard = ({
+  imgUrl,
+  title,
+  description,
+  gitUrl,
+  previewUrl,
+  labels,
+}) => {
   return (
     <div>
       <div
-        className="h-80 w-96 md:h-72 rounded-t-xl relative group"
+        className="h-80 w-96 md:h-96 md:w-540 rounded-xl relative group"
         style={{
           background: `url(${imgUrl})`,
           backgroundSize: 'cover',
         }}
       >
-        <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
+        <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:rounded-xl group-hover:bg-opacity-80 transition-all duration-500 ">
           <a
             href={gitUrl}
             rel="noreferrer"
@@ -30,9 +37,23 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
           </a>
         </div>
       </div>
-      <div className="text-white rounded-b-xl mt-3 mb-24 bg-[#181818] py-6">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE] w-96 h-20 ">{description}</p>
+      <div className="text-white rounded-b-xl mb-24 pt-2 pb-6">
+        <h5 className="text-xl font-semibold mt-3 mb-2 text-primary-light dark:text-primary-dark">
+          {title}
+        </h5>
+        <p className="w-540 h-36 text-primary-light text-justify dark:text-primary-dark">
+          {description}
+        </p>
+        <div className="w-540 mt-6 flex flex-wrap gap-2">
+          {labels.map((label, index) => (
+            <span
+              key={index}
+              className="px-3 py-1 bg-[#342945] text-sm font-semibold text-[#bb86fc] rounded-full"
+            >
+              {label}
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   )
