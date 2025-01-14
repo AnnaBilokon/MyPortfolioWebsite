@@ -1,19 +1,31 @@
 import React from 'react'
-import logoImage from '../images/logo.png'
+import { PiCodeDuotone } from 'react-icons/pi'
+import { IconContext } from 'react-icons'
 
 const Footer = () => {
   return (
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
-      <div className="container p-12 flex justify-between">
+      <div className="container p-4 flex justify-between">
         <a
           rel="preload"
           href="/"
           className="text-2xl md:text-5xl text-white font-semibold"
         >
           {' '}
-          <img src={logoImage} alt="logo" />
+          <IconContext.Provider
+            value={{
+              color: '#a275d9',
+              className: 'global-class-name',
+              size: '4rem',
+            }}
+          >
+            {' '}
+            <PiCodeDuotone />
+          </IconContext.Provider>
         </a>
-        <p className="text-slate-600">All rights reserved.</p>
+        <p className="text-slate-600 ">
+          2023 Anna Bilokon. All rights reserved.
+        </p>
       </div>
     </footer>
   )
