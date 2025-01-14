@@ -86,7 +86,7 @@ const HeroSection = () => {
               src={heroImage}
               id="gsap-img"
               alt="hero"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-3/4 md:left-72 left-52"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-0 md:left-72 left-52"
             />
           </div>
         </div>
