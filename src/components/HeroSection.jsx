@@ -80,13 +80,13 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        <div className="relative col-span-4 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full ml-12 bg-[#342945] dark:bg-[#121212] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]  left-6">
+        <div className="col-span-4 place-self-center mt-4 lg:mt-0">
+          <div className="relative rounded-full ml-12 bg-[#342945] dark:bg-[#121212] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] left-6">
             <img
               src={heroImage}
               id="gsap-img"
               alt="hero"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-3/4 md:left-80 left-52"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-3/4 md:left-72 left-52"
             />
           </div>
         </div>
