@@ -5,14 +5,13 @@ import imageProject4 from './images/project4.png'
 import imageProject5 from './images/project5.png'
 import imageProject6 from './images/project6.png'
 import imageProject7 from './images/project7.png'
-import imageProject8 from './images/project8.png'
+import imageProject8 from './images/project8.svg'
 
 export const projectsData = [
 	{
 		id: 8,
 		title: 'Gaia.eco project',
-		description: `My role in this project is to develop and maintain code for an application 
-		interface based on the R language in Shiny RStudio. The purpose of the project is to provide data to 
+		description: `As a Front-end developer in this project I developed and maintained code for an application based on the R language in Shiny RStudio. The purpose of the project is to provide data to 
 		users of different profiles for preserving biodiversity. Design and prototype web application components 
 		and features using Figma.`,
 		image: imageProject8,
@@ -20,18 +19,19 @@ export const projectsData = [
 		  'https://illuminum.shinyapps.io/gaia-lite/',
 		labels: ['Shiny R', 'CSS', 'Figma', 'Tailwind', 'RStudio', 'Git', 'JavaScript'],
 	  },
-	{
-		id: 7,
-		title: 'Tic-Tac-Toe Game',
-		description: `This project is a classic Tic Tac Toe game, designed and developed as part of my front-end development studying. 
-		The game is built using HTML, CSS, JavaScript and React, offering an interactive and responsive user experience. `,
-		image: imageProject7,
-		gitUrl:
-		  'https://github.com/AnnaBilokon/Tic-Tac-Game',
-		previewUrl:
-		  'https://tictactoes-game.netlify.app/',
-		  labels: ['HTML', 'CSS', 'JavaScript', 'React', ],
+	  {
+		id: 6,
+		title: 'ReadMe Bookshop',
+		description: `E-commerce website that can be used as an online store, 
+		where you can easily select the desired product by seacrhing, find out detailed information 
+		about it, add products to the cart. Authentication with Clerk and admin dashboard for managing new products. Dark and light mode. New features are in progress
+		`,
+		image: imageProject6,
+		gitUrl: 'https://github.com/AnnaBilokon/BookshopTypescript',
+		previewUrl: 'https://readmeshop.vercel.app/',
+		labels: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Figma', 'Tailwind', 'Vercel', 'Clerk']
 	  },
+	
 	{
 	  id: 4,
 	  title: 'UX/UI Design Case Study',
@@ -57,18 +57,18 @@ export const projectsData = [
 		previewUrl: 'https://myportfolioab.netlify.app/',
 		labels: ['Figma','HTML', 'CSS', 'JavaScript', 'React', 'Tailwind', 'Node js']
 	  },
-	{
-	  id: 6,
-	  title: 'E-commerce website',
-	  description: `ReadMe Bookshop website that can be used as an online store, 
-	  where you can easily select the desired product by category, find out detailed information 
-	  about it, add products to the cart and see the total amount for several products. New features are in progress
-	  (HTML5/CSS3/JavaScript/React)`,
-	  image: imageProject6,
-	  gitUrl: 'https://github.com/AnnaBilokon/ReadMeShop',
-	  previewUrl: 'https://readmeshop.netlify.app/',
-	  labels: ['HTML', 'CSS', 'Figma', 'Tailwind', 'Javascript', 'React']
-	},
+	  {
+		id: 7,
+		title: 'Tic-Tac-Toe Game',
+		description: `This project is a classic Tic Tac Toe game, designed and developed as part of my front-end development studying. 
+		The game is built using HTML, CSS, JavaScript and React, offering an interactive and responsive user experience. `,
+		image: imageProject7,
+		gitUrl:
+		  'https://github.com/AnnaBilokon/Tic-Tac-Game',
+		previewUrl:
+		  'https://tictactoes-game.netlify.app/',
+		  labels: ['HTML', 'CSS', 'JavaScript', 'React', ],
+	  },
 	// {
 	//   id: 1,
 	//   title: 'React Galaxy Website',
