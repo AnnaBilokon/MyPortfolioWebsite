@@ -10,7 +10,7 @@ import imageProject8 from './images/project8.svg'
 export const projectsData = [
 	{
 		id: 8,
-		title: 'Gaia.eco project',
+		title: 'Gaia.eco project by Illuminum',
 		description: `As a Front-end developer in this project I developed and maintained code for an application based on the R language in Shiny RStudio. The purpose of the project is to provide data to 
 		users of different profiles for preserving biodiversity. Design and prototype web application components 
 		and features using Figma.`,
