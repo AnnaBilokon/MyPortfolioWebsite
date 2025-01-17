@@ -1,6 +1,6 @@
 // import imageProject1 from './images/project1.png'
 // import imageProject2 from './images/project2.png'
-// import imageProject3 from './images/project3.png'
+import imageProject3 from './images/project3.svg'
 import imageProject4 from './images/project4.png'
 import imageProject5 from './images/project5.png'
 import imageProject6 from './images/project6.png'
@@ -31,7 +31,17 @@ export const projectsData = [
 		previewUrl: 'https://readmeshop.vercel.app/',
 		labels: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Figma', 'Tailwind', 'Vercel', 'Clerk']
 	  },
-	
+	  {
+		id: 3,
+		title: 'Yoga Space',
+		description: `UX/UI design for the yoga studio. The website will serve as an online hub for current and potential clients, offering information about classes, schedules, instructors, and wellness resources. `,
+		image: imageProject3,
+		gitUrl:
+		  'https://www.behance.net/gallery/217056913/Yoga-Space',
+		previewUrl:
+		  'https://www.behance.net/gallery/217056913/Yoga-Space',
+		  labels: ['Figma', 'UX', 'UI', 'Prototyping', 'Wireframing', 'Design principles' ],
+	  },
 	{
 	  id: 4,
 	  title: 'UX/UI Design Case Study',
@@ -69,6 +79,7 @@ export const projectsData = [
 		  'https://tictactoes-game.netlify.app/',
 		  labels: ['HTML', 'CSS', 'JavaScript', 'React', ],
 	  },
+	  
 	// {
 	//   id: 1,
 	//   title: 'React Galaxy Website',
