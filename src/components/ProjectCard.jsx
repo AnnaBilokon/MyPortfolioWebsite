@@ -4,6 +4,7 @@ import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 const ProjectCard = ({
   imgUrl,
   title,
+  role,
   description,
   gitUrl,
   previewUrl,
@@ -41,6 +42,12 @@ const ProjectCard = ({
         <h5 className="text-xl font-semibold mt-3 mb-2 text-primary-light dark:text-primary-dark">
           {title}
         </h5>
+        <p className="my-4 text-[#bb86fc] font-bold text-lg ">
+          <span className="text-primary-light text-justify font-semibold text-lg dark:text-primary-dark">
+            Role:{' '}
+          </span>
+          {role}
+        </p>
         <p className="w-540 h-36 text-primary-light text-justify dark:text-primary-dark">
           {description}
         </p>
