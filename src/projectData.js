@@ -11,6 +11,7 @@ export const projectsData = [
 	{
 		id: 8,
 		title: 'Gaia.eco project by Illuminum',
+		role: 'Front-end developer & UI designer ',
 		description: `As a Front-end developer in this project I developed and maintained code for an application based on the R language in Shiny RStudio. The purpose of the project is to provide data to 
 		users of different profiles for preserving biodiversity. Design and prototype web application components 
 		and features using Figma.`,
@@ -22,6 +23,7 @@ export const projectsData = [
 	  {
 		id: 6,
 		title: 'ReadMe Bookshop',
+		role: 'Front-end developer',
 		description: `E-commerce website that can be used as an online store, 
 		where you can easily select the desired product by seacrhing, find out detailed information 
 		about it, add products to the cart. Authentication with Clerk and admin dashboard for managing new products. Dark and light mode. New features are in progress
@@ -34,6 +36,7 @@ export const projectsData = [
 	  {
 		id: 3,
 		title: 'Yoga Space',
+		role: 'UX & UI designer ',
 		description: `UX/UI design for the yoga studio. The website will serve as an online hub for current and potential clients, offering information about classes, schedules, instructors, and wellness resources. `,
 		image: imageProject3,
 		gitUrl:
@@ -45,6 +48,7 @@ export const projectsData = [
 	{
 	  id: 4,
 	  title: 'UX/UI Design Case Study',
+	  role: 'UX & UI designer ',
 	  description: `This project is a design case study project for an audiobook app for children that will help occupy 
 	  child's time productively. While working on the project, I studied the principles 
 	  of UX/UI design and the design thinking process. I also have improved my skills in Figma, enhancing my proficiency in creating prototypes and wireframes. 
@@ -59,6 +63,7 @@ export const projectsData = [
 	{
 		id: 5,
 		title: 'Anafragipana.art',
+		role: 'UX & UI designer ',
 		description: `Designing and developing the responsive and cross-browser personal website for the graphic designer.
   Creating visually appealing and functional user experience interface tailored to the specific needs of the client in the field of graphic design. 
   Prototyping development and visualization in Figma.`,
@@ -70,6 +75,7 @@ export const projectsData = [
 	  {
 		id: 7,
 		title: 'Tic-Tac-Toe Game',
+		role: 'Front-end developer ',
 		description: `This project is a classic Tic Tac Toe game, designed and developed as part of my front-end development studying. 
 		The game is built using HTML, CSS, JavaScript and React, offering an interactive and responsive user experience. `,
 		image: imageProject7,
