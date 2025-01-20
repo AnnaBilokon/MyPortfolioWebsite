@@ -14,6 +14,7 @@ const ProjectSection = () => {
           <ProjectCard
             key={project.id}
             title={project.title}
+            role={project.role}
             description={project.description}
             imgUrl={project.image}
             gitUrl={project.gitUrl}
