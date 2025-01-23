@@ -52,10 +52,10 @@ const HeroSection = () => {
           </h1>
           <p className="text-primary-light mr-10 dark:text-primary-dark sm:text-lg mb-6 lg:text-xl">
             Creative and empathetic UX/UI Designer with coding skills who has
-            passion for crafting beautiful, user-friendly products. My
+            passion for crafting intuitive and user-centered products. My
             experience spans from designing custom jewelry to building
             interactive web interfaces, blending aesthetics with functionality.
-            I’m driven by an empathy to users and desire to create intuitive
+            I’m driven by an empathy to users and desire to create
             equity-focused applications that truly meet user needs, combining
             technical skills with a deep understanding of design principles.
           </p>
