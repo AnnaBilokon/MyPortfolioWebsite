@@ -68,8 +68,8 @@ export const projectsData = [
   Creating visually appealing and functional user experience interface tailored to the specific needs of the client in the field of graphic design. 
   Prototyping development and visualization in Figma.`,
 		image: imageProject5,
-		gitUrl: 'https://github.com/AnnaBilokon/MyPortfolioWebsite',
-		previewUrl: 'https://myportfolioab.netlify.app/',
+		gitUrl: 'https://anafragipana.webflow.io/',
+		previewUrl: 'https://anafragipana.webflow.io/',
 		labels: ['Figma','HTML', 'CSS', 'JavaScript', 'React', 'Tailwind', 'Node js']
 	  },
 	  {
