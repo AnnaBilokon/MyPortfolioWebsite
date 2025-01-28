@@ -2,7 +2,7 @@
 // import imageProject2 from './images/project2.png'
 import imageProject3 from './images/project3.svg'
 import imageProject4 from './images/project4.png'
-import imageProject5 from './images/project5.png'
+import imageProject5 from './images/project5.jpg'
 import imageProject6 from './images/project6.png'
 import imageProject7 from './images/project7.png'
 import imageProject8 from './images/project8.svg'
