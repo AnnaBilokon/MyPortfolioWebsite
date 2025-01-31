@@ -64,7 +64,7 @@ const Navbar = () => {
         </div>
 
         <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
+          <ul className="flex flex-col p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
                 <NavLink href={link.path} title={link.title} />
@@ -77,7 +77,7 @@ const Navbar = () => {
       <div>
         <button
           onClick={toggleTheme}
-          className="w-fit h-10 py-2 px-4 mx-5 my-4 rounded-full font-semibold text-xs md:text-sm border-2 border-primary-light hover:scale-105 transition-all duration-300 dark:border-primary-dark dark:text-primary-dark"
+          className="w-fit h-10 py-2 px-4 mx-2 my-4 rounded-full font-semibold text-xs md:text-sm border-2 border-primary-light hover:scale-105 transition-all duration-300 dark:border-primary-dark dark:text-primary-dark"
         >
           {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
         </button>
