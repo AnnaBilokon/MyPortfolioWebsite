@@ -63,14 +63,14 @@ export const projectsData = [
 	{
 		id: 5,
 		title: 'Anafragipana.art',
-		role: 'UX & UI designer ',
+		role: 'UX & UI designer | Front-end developer ',
 		description: `Designing and developing the responsive and cross-browser personal website for the graphic designer.
   Creating visually appealing and functional user experience interface tailored to the specific needs of the client in the field of graphic design. 
   Prototyping and visualization in Figma, the final website is implemented on Webflow.`,
 		image: imageProject5,
 		gitUrl: 'https://anafragipana.webflow.io/',
 		previewUrl: 'https://anafragipana.webflow.io/',
-		labels: ['Figma', 'Webflow', 'Responsive design','Prototyping', 'Communication skills']
+		labels: ['Webflow', 'Responsive design','Prototyping', 'Communication', 'Figma']
 	  },
 	  {
 		id: 7,
