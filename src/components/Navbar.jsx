@@ -56,7 +56,7 @@ const Navbar = () => {
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
-              className="flex flex-col items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white dark:text-white"
+              className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white dark:text-white"
             >
               <XMarkIcon className="h-5 w-5" />
             </button>
