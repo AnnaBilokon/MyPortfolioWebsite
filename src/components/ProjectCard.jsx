@@ -32,11 +32,11 @@ const ProjectCard = ({
               <img
                 src={imgUrl}
                 alt="project"
-                className="w-full h-full object-cover rounded-xl"
+                className="w-full h-52 object-cover rounded-xl"
               />
             </div>
 
-            <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:rounded-xl group-hover:bg-opacity-80 transition-all duration-500 ">
+            <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-52 md:h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:rounded-xl group-hover:bg-opacity-80 transition-all duration-500 ">
               <a
                 href={gitUrl}
                 rel="noreferrer"
