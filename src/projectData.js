@@ -1,4 +1,4 @@
-// import imageProject1 from './images/project1.png'
+import imageProject1 from './images/project1.svg'
 // import imageProject2 from './images/project2.png'
 import imageProject3 from './images/project3.svg'
 import imageProject4 from './images/project4.png'
@@ -8,6 +8,18 @@ import imageProject7 from './images/project7.png'
 import imageProject8 from './images/project8.svg'
 
 export const projectsData = [
+	{
+		id: 1,
+		title: 'Future Solution',
+		role: 'Front-end developer',
+		description: `Developed a modern SaaS landing page ensuring full responsiveness across all devices. Every section includes smooth, high-performance animations for an engaging user experience.
+		Parallax effects, infinite scrolling animations for testimonials section, micro interactions across the website. The project focuses on clean design, performance, and animated effects`,
+		image: imageProject1, 
+		gitUrl: 'https://github.com/AnnaBilokon/landing-page-saas-project',
+		previewUrl:
+		  'https://futuresolution.netlify.app/',
+		labels: ['Typescript', 'Next js', 'React', 'Figma', 'Tailwind', 'Framer Motion', ],
+	  },
 	{
 		id: 8,
 		title: 'Gaia.eco project by Illuminum',
