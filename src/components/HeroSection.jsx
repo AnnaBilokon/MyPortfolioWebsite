@@ -46,7 +46,7 @@ const HeroSection = () => {
               style={{
                 display: 'inline-block',
               }}
-              className="text-3xl sm:text-4xl lg:text-5xl"
+              className="text-2xl sm:text-4xl lg:text-5xl"
               repeat={Infinity}
             />
           </h1>

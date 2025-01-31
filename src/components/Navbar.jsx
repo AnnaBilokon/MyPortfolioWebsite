@@ -30,7 +30,7 @@ const Navbar = () => {
       <a
         rel="preload"
         href="/"
-        className="text-2xl md:text-5xl font-semibold mx-8"
+        className="text-2xl md:text-5xl font-semibold mx-6"
       >
         {' '}
         <IconContext.Provider
@@ -44,27 +44,27 @@ const Navbar = () => {
           <PiCodeDuotone />
         </IconContext.Provider>
       </a>
-      <div className="flex containe lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
+      <div className="flex lg:py-4 flex-wrap justify-center items-center mx-auto px-4 py-2">
         <div className="mobile-menu block md:hidden ">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
               className="flex items-center px-3 py-2 border rounded border-slate-200 dark:text-primary-dark hover:text-white hover:border-white"
             >
-              <Bars3Icon className="h-5 w-5" />
+              <Bars3Icon className="h-4 w-4" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
               className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white dark:text-white"
             >
-              <XMarkIcon className="h-5 w-5" />
+              <XMarkIcon className="h-4 w-4" />
             </button>
           )}
         </div>
 
         <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
+          <ul className="flex flex-col p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
                 <NavLink href={link.path} title={link.title} />
@@ -77,9 +77,9 @@ const Navbar = () => {
       <div>
         <button
           onClick={toggleTheme}
-          className="w-fit h-10 py-2 px-4 mx-2 my-4 rounded-full font-semibold text-xs md:text-sm border-2 border-primary-light hover:scale-105 transition-all duration-300 dark:border-primary-dark dark:text-primary-dark"
+          className="w-[70px] text-center md:w-fit h-8 md:h-10 px-2 md:px-4 mx-2 my-4 rounded-full font-normal text-xs md:text-sm border md:border-2 border-primary-light hover:scale-105 transition-all duration-300 dark:border-primary-dark dark:text-primary-dark"
         >
-          {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
+          {theme === 'dark' ? 'Light' : 'Dark'}
         </button>
       </div>
     </nav>

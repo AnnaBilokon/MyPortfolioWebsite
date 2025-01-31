@@ -23,7 +23,7 @@ const ProjectCard = ({
   return (
     <section>
       <div className="flex flex-col justify-center items-center">
-        <div className="flex flex-col justify-center items-center max-w-full mx-10 md:flex-row md:max-w-[1244px] gap-10 overflow-hidden">
+        <div className="flex flex-col justify-center items-center max-w-full mx-10 md:flex-row md:max-w-[1244px] gap-5 overflow-hidden">
           <div
             ref={ref}
             className="h-80 w-full md:w-2/3 md:h-96 rounded-xl relative group"
@@ -55,7 +55,7 @@ const ProjectCard = ({
           </div>
 
           <motion.div
-            className="w-full md:w-1/2 rounded-b-xl md:mb-24 pt-2 pb-6"
+            className="w-full md:w-1/2 rounded-b-xl md:mb-24 pt-2 pb-3"
             style={{
               y,
             }}
@@ -73,7 +73,7 @@ const ProjectCard = ({
                 {role}
               </p>
               <p className="mx-auto project-description">{description}</p>
-              <div className="flex flex-wrap w-full mt-6 gap-2">
+              <div className="flex flex-wrap w-full mt-6 gap-1 md:gap-2 mx-auto">
                 {labels.map((label, index) => (
                   <span
                     key={index}

@@ -44,25 +44,8 @@ const EmailSection = () => {
     }
   }
   return (
-    <section ref={sectionRef} id="contact" className="py-24 relative">
+    <section ref={sectionRef} id="contact" className="py-6 md:py-12 relative">
       {' '}
-      {/* <motion.img
-        src={asteroidImage}
-        alt="asteroid"
-        width={250}
-        className="absolute left-0 -top-100 z-10 opacity-50 md:left-96 md:opacity-100"
-        drag
-        dragConstraints={{
-          top: -200,
-          left: -50,
-          right: 50,
-          bottom: 50,
-        }}
-        whileHover={{ scale: 1.3 }}
-        style={{
-          translateY,
-        }}
-      /> */}
       <motion.div
         className="absolute left-0 -top-24 z-10 opacity-50 md:left-96 md:opacity-100"
         onHoverStart={() => setIsHovered(true)}
@@ -130,7 +113,7 @@ const EmailSection = () => {
             </p>
           ) : (
             <form className="flex flex-col" onSubmit={sendEmail} ref={form}>
-              <div className="mb-6">
+              <div className="mb-2 md:mb-6">
                 <label
                   htmlFor="reply_to"
                   className="text-white block mb-2 text-sm font-medium"
@@ -146,7 +129,7 @@ const EmailSection = () => {
                   placeholder="jacob@google.com"
                 />
               </div>
-              <div className="mb-6">
+              <div className="mb-2 md:mb-6">
                 <label
                   htmlFor="from_name"
                   className="text-white block text-sm mb-2 font-medium"
@@ -162,7 +145,7 @@ const EmailSection = () => {
                   placeholder="Enter your full name"
                 />
               </div>
-              <div className="mb-6">
+              <div className="mb-2 md:mb-6">
                 <label
                   htmlFor="message"
                   className="text-white block text-sm mb-2 font-medium"
@@ -178,7 +161,7 @@ const EmailSection = () => {
               </div>
               <button
                 type="submit"
-                className="bg-gradient-to-br from-[#d6b0ff] to-[#392563] dark:bg-gradient-to-r dark:from-primary-dark dark:to-[#bb86fc] dark:text-black text-white font-medium py-2.5 px-5 rounded-lg w-full"
+                className="mt-2 bg-gradient-to-br from-[#d6b0ff] to-[#392563] dark:bg-gradient-to-r dark:from-primary-dark dark:to-[#bb86fc] dark:text-black text-white font-medium py-2.5 px-5 rounded-lg w-full"
               >
                 Send Message
               </button>
