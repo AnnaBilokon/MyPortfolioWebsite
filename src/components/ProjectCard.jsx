@@ -23,13 +23,15 @@ const ProjectCard = ({
   return (
     <section>
       <div className="flex flex-col justify-center items-center">
-        <div className="flex flex-col justify-center items-center max-w-full mx-10 md:flex-row md:max-w-[1244px] gap-20 overflow-hidden">
+        <div className="flex flex-col justify-center items-center max-w-full mx-10 md:flex-row md:max-w-[1244px] gap-10 overflow-hidden">
           <div
             ref={ref}
             className="h-80 w-full md:w-2/3 md:h-96 rounded-xl relative group"
             style={{
               background: `url(${imgUrl})`,
-              backgroundSize: 'cover',
+              backgroundSize: 'contain',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center',
             }}
           >
             <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:rounded-xl group-hover:bg-opacity-80 transition-all duration-500 ">
@@ -53,7 +55,7 @@ const ProjectCard = ({
           </div>
 
           <motion.div
-            className="w-full md:w-1/2 rounded-b-xl mb-24 pt-2 pb-6"
+            className="w-full md:w-1/2 rounded-b-xl md:mb-24 pt-2 pb-6"
             style={{
               y,
             }}

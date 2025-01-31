@@ -72,14 +72,16 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
+        {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
-      <button
-        onClick={toggleTheme}
-        className="w-fit h-10 py-2 px-4 mx-5 my-auto rounded-full font-semibold text-sm border-2 border-primary-light hover:scale-105 transition-all duration-300 dark:border-primary-dark dark:text-primary-dark"
-      >
-        {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
-      </button>
+      <div>
+        <button
+          onClick={toggleTheme}
+          className="w-fit h-10 py-2 px-4 mx-5 my-4 rounded-full font-semibold text-xs md:text-sm border-2 border-primary-light hover:scale-105 transition-all duration-300 dark:border-primary-dark dark:text-primary-dark"
+        >
+          {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
+        </button>
+      </div>
     </nav>
   )
 }

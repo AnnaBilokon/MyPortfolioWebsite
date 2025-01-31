@@ -25,9 +25,9 @@ const HeroSection = () => {
   }, [])
   return (
     <section>
-      <div className="flex flex-col lg:flex-row items-center justify-center px-6 py-12">
+      <div className="flex flex-col lg:flex-row items-center justify-center px-6 py-6 md:py-12">
         <div className="flex flex-col items-center text-center md:items-start sm:text-left">
-          <h1 className="text-[#46365a] dark:text-[#bb86fc] mb-4 text-4xl sm:text-4xl lg:text-5xl font-extrabold">
+          <h1 className="text-[#46365a] dark:text-[#bb86fc] mb-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d6b0ff] to-[#392563] dark:bg-gradient-to-r dark:from-primary-dark dark:to-[#bb86fc]">
               Hello, I am{' '}
             </span>
@@ -44,9 +44,9 @@ const HeroSection = () => {
               wrapper="span"
               speed={50}
               style={{
-                fontSize: '48px',
                 display: 'inline-block',
               }}
+              className="text-3xl sm:text-4xl lg:text-5xl"
               repeat={Infinity}
             />
           </h1>

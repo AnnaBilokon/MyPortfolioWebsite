@@ -13,7 +13,7 @@ export default function Home() {
 	<ThemeProvider>
 	<main className="flex min-h-screen flex-col bg-[#ffffff] dark:bg-[#221c2b]">
 	<Navbar/>
-	<div className="container mt-24 mx-auto px-12 py-4">
+	<div className="container mt-24 mx-auto px-4 py-4">
 	<HeroSection/>
 	<AboutSection/>
 	<SkillsSection/>

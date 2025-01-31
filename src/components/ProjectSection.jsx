@@ -56,7 +56,7 @@ const ProjectSection = () => {
       />
 
       {/* grid xl:grid-cols-3 justify-items-center gap-8 md:gap-12 */}
-      <div className="flex flex-col justify-items-center gap-[50px] md:gap-[60px]">
+      <div className="flex flex-col justify-items-center gap-[20px] md:gap-[60px]">
         {projectsData.map((project) => (
           <ProjectCard
             key={project.id}
