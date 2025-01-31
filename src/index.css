@@ -15,3 +15,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@layer components {
+	.section-title {
+		@apply text-4xl font-bold text-primary-light dark:text-primary-dark mb-4
+	}
+	.project-title {
+		@apply text-4xl font-bold my-6 text-black/60 dark:text-primary-dark leading-[30px] tracking-tight
+	}
+	.project-description {
+		@apply text-base text-primary-light text-justify dark:text-primary-dark leading-[25px] tracking-tight
+	}
+}
+
+
