@@ -77,7 +77,7 @@ const Navbar = () => {
       <div>
         <button
           onClick={toggleTheme}
-          className="w-[70px] text-center md:w-fit h-8 md:h-10 px-2 md:px-4 mx-2 my-4 rounded-full font-normal text-xs md:text-sm border md:border-2 border-primary-light hover:scale-105 transition-all duration-300 dark:border-primary-dark dark:text-primary-dark"
+          className="w-[70px] text-center md:w-fit h-8 md:h-10 px-2 md:px-8 mx-2 md:mx-6 my-4 rounded-full font-normal text-xs md:text-sm border md:border-2 border-primary-light hover:scale-105 transition-all duration-300 dark:border-primary-dark dark:text-primary-dark"
         >
           {theme === 'dark' ? 'Light' : 'Dark'}
         </button>

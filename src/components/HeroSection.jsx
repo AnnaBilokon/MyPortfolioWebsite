@@ -50,7 +50,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-primary-light md:mr-10 dark:text-primary-dark sm:text-lg md:mb-6 lg:text-xl">
+          <p className="text-primary-light md:mr-10 dark:text-primary-dark sm:text-lg mb-4 md:mb-6 lg:text-xl">
             Creative and empathetic Front-end Developer with a passion for UX/UI
             design and crafting intuitive and user-centered products. My
             experience spans from designing custom jewelry to building

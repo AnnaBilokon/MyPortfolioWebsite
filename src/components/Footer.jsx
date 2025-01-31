@@ -23,7 +23,7 @@ const Footer = () => {
             <PiCodeDuotone />
           </IconContext.Provider>
         </a>
-        <p className="text-slate-600 ">
+        <p className="text-slate-400 text-sm md:text-base mt-6">
           2023 Anna Bilokon. All rights reserved.
         </p>
       </div>

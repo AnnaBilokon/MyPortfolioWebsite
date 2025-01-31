@@ -34,7 +34,7 @@ export default function SkillsSection() {
         <h1 className="section-title text-center">Skills</h1>
       </div>
       <motion.div
-        className="absolute left-0 -bottom-[120%] z-20 opacity-50 md:left-8 md:opacity-100"
+        className="absolute left-0 -bottom-[250%] md:-bottom-[120%] z-20 opacity-50 md:left-8 md:opacity-100"
         onHoverStart={() => setIsHovered(true)}
         onHoverEnd={() => setIsHovered(false)}
       >
