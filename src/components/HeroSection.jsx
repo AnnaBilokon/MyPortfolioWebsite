@@ -25,8 +25,8 @@ const HeroSection = () => {
   }, [])
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left">
+      <div className="flex flex-col lg:flex-row items-center justify-center px-6 py-12">
+        <div className="flex flex-col items-center text-center md:items-start sm:text-left">
           <h1 className="text-[#46365a] dark:text-[#bb86fc] mb-4 text-4xl sm:text-4xl lg:text-5xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d6b0ff] to-[#392563] dark:bg-gradient-to-r dark:from-primary-dark dark:to-[#bb86fc]">
               Hello, I am{' '}
@@ -36,9 +36,9 @@ const HeroSection = () => {
               sequence={[
                 'Anna Bilokon',
                 1000,
-                'UX/UI Designer',
-                1000,
                 'Front-end Developer',
+                1000,
+                'UX/UI Designer',
                 1000,
               ]}
               wrapper="span"
@@ -51,8 +51,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-primary-light mr-10 dark:text-primary-dark sm:text-lg mb-6 lg:text-xl">
-            Creative and empathetic UX/UI Designer with coding skills who has
-            passion for crafting intuitive and user-centered products. My
+            Creative and empathetic Front-end Developer with a passion for UX/UI
+            design and crafting intuitive and user-centered products. My
             experience spans from designing custom jewelry to building
             interactive web interfaces, blending aesthetics with functionality.
             I’m driven by an empathy to users and desire to create
@@ -80,13 +80,13 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        <div className="col-span-4 place-self-center mt-4 lg:mt-0">
-          <div className="relative rounded-full ml-12 bg-[#342945] dark:bg-[#121212] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] left-6">
+        <div className="flex flex-col items-center mt-4 lg:mt-0">
+          <div className="relative rounded-full md:ml-12 bg-[#342945] dark:bg-[#121212] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] left-6">
             <img
               src={heroImage}
               id="gsap-img"
               alt="hero"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 -top-8 md:-right-1/4 right-52"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 -top-8 left-4 md:-right-1/4 right-52"
             />
           </div>
         </div>
