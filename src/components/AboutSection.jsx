@@ -4,16 +4,20 @@ import aboutImage from '../images/about-image.png'
 
 const AboutSection = () => {
   return (
-    <section className="text-white" id="about">
+    <section className="text-white relative" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-12 px-4 xl:gap-16 sm:py-16 xl:px-6">
         <a rel="preload" href="/">
-          <img src={aboutImage} width={500} height={500} alt="aboutPic" />
+          <img
+            src={aboutImage}
+            width={500}
+            height={500}
+            alt="aboutPic"
+            className="hidden md:block"
+          />
         </a>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-primary-light dark:text-primary-dark mb-4">
-            About Me
-          </h2>
-          <p className="text-primary-light dark:text-primary-dark lg:text-lg">
+          <h2 className="section-title text-center">About Me</h2>
+          <p className="text-primary-light dark:text-primary-dark text-center md:text-justify lg:text-lg">
             My <span className="font-semibold text-[#bb86fc]">empathy </span>{' '}
             makes me passionate about making applications that are accessible to
             everyone and focused on{' '}
@@ -55,32 +59,6 @@ const AboutSection = () => {
               understandible, discoverable and easy to use for everyone.{' '}
             </span>{' '}
           </p>
-          {/* <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selectTab={() => handleTabChange('skills')}
-              active={tab === 'skills'}
-            >
-              {' '}
-              Skills{' '}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange('education')}
-              active={tab === 'education'}
-            >
-              {' '}
-              Education{' '}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange('certifications')}
-              active={tab === 'certifications'}
-            >
-              {' '}
-              Certification{' '}
-            </TabButton>
-          </div>
-          <div className="mt-8">
-            {TAB_DATA.find((t) => t.id === tab).content}
-          </div> */}
         </div>
       </div>
     </section>
