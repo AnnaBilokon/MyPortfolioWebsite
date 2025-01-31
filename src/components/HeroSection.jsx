@@ -25,8 +25,8 @@ const HeroSection = () => {
   }, [])
   return (
     <section>
-      <div className="flex flex-col lg:flex-row items-center justify-center px-6 py-6 md:py-12">
-        <div className="flex flex-col items-center text-center md:items-start sm:text-left">
+      <div className="flex flex-col md:w-full md:flex-row items-center justify-center px-6 py-6 md:py-12">
+        <div className="flex flex-col items-center md:w-1/2 text-center md:items-start sm:text-left">
           <h1 className="text-[#46365a] dark:text-[#bb86fc] mb-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d6b0ff] to-[#392563] dark:bg-gradient-to-r dark:from-primary-dark dark:to-[#bb86fc]">
               Hello, I am{' '}
@@ -80,7 +80,7 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col items-center mt-4 lg:mt-0">
+        <div className="flex flex-col items-center mt-4 lg:mt-0 md:w-1/2">
           <div className="relative rounded-full md:ml-12 bg-[#342945] dark:bg-[#121212] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] left-6">
             <img
               src={heroImage}
