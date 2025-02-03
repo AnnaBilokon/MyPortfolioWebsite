@@ -113,7 +113,7 @@ const EmailSection = () => {
             </p>
           ) : (
             <form className="flex flex-col" onSubmit={sendEmail} ref={form}>
-              <div className="mb-2 md:mb-6">
+              <div className="mb-2">
                 <label
                   htmlFor="reply_to"
                   className="text-white block mb-2 text-sm font-medium"
@@ -129,7 +129,7 @@ const EmailSection = () => {
                   placeholder="jacob@google.com"
                 />
               </div>
-              <div className="mb-2 md:mb-6">
+              <div className="mb-2">
                 <label
                   htmlFor="from_name"
                   className="text-white block text-sm mb-2 font-medium"
@@ -145,7 +145,7 @@ const EmailSection = () => {
                   placeholder="Enter your full name"
                 />
               </div>
-              <div className="mb-2 md:mb-6">
+              <div className="mb-2">
                 <label
                   htmlFor="message"
                   className="text-white block text-sm mb-2 font-medium"
