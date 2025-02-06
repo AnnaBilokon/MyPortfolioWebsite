@@ -3,7 +3,7 @@ import imageProject1 from './images/project1.svg'
 import imageProject3 from './images/project3.svg'
 import imageProject4 from './images/project4.png'
 import imageProject5 from './images/project5.jpg'
-import imageProject6 from './images/project6.png'
+import imageProject9 from './images/project9.png'
 import imageProject7 from './images/project7.png'
 import imageProject8 from './images/project8.svg'
 
@@ -32,18 +32,31 @@ export const projectsData = [
 		  'https://illuminum.shinyapps.io/gaia-lite/',
 		labels: ['Shiny R', 'CSS', 'Figma', 'Tailwind', 'RStudio', 'Git', 'JavaScript'],
 	  },
+	//   {
+	// 	id: 6,
+	// 	title: 'ReadMe Bookshop',
+	// 	role: 'Front-end developer',
+	// 	description: `E-commerce website that can be used as an online store, 
+	// 	where you can easily select the desired product by seacrhing, find out detailed information 
+	// 	about it, add products to the cart. Authentication with Clerk and admin dashboard for managing new products. Dark and light mode. New features are in progress
+	// 	`,
+	// 	image: imageProject6,
+	// 	gitUrl: 'https://github.com/AnnaBilokon/BookshopTypescript',
+	// 	previewUrl: 'https://readmeshop.vercel.app/',
+	// 	labels: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Figma', 'Tailwind', 'Vercel', 'Clerk']
+	//   },
 	  {
-		id: 6,
+		id: 9,
 		title: 'ReadMe Bookshop',
 		role: 'Front-end developer',
 		description: `E-commerce website that can be used as an online store, 
 		where you can easily select the desired product by seacrhing, find out detailed information 
-		about it, add products to the cart. Authentication with Clerk and admin dashboard for managing new products. Dark and light mode. New features are in progress
+		about it, add products to the cart. Updates are in progress
 		`,
-		image: imageProject6,
-		gitUrl: 'https://github.com/AnnaBilokon/BookshopTypescript',
-		previewUrl: 'https://readmeshop.vercel.app/',
-		labels: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Figma', 'Tailwind', 'Vercel', 'Clerk']
+		image: imageProject9,
+		gitUrl: 'https://github.com/AnnaBilokon/ReadMeShop',
+		previewUrl: 'https://readmeshop.netlify.app/',
+		labels: ['HTML', 'CSS', 'React', 'Node.js', 'Figma', 'Tailwind', ]
 	  },
 	  {
 		id: 3,
