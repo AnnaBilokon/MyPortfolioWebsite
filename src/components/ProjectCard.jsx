@@ -32,7 +32,7 @@ const ProjectCard = ({
               <img
                 src={imgUrl}
                 alt="project"
-                className="w-full h-80 object-cover rounded-xl"
+                className="w-full h-52 md:h-80 object-cover rounded-xl"
               />
             </div>
 
