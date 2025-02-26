@@ -1,6 +1,6 @@
 import imageProject1 from './images/project1.svg'
 // import imageProject2 from './images/project2.png'
-import imageProject3 from './images/project3.svg'
+// import imageProject3 from './images/project3.svg'
 import imageProject4 from './images/project4.png'
 import imageProject5 from './images/project5.jpg'
 import imageProject9 from './images/project9.png'
@@ -58,33 +58,19 @@ export const projectsData = [
 		previewUrl: 'https://readmeshop.netlify.app/',
 		labels: ['HTML', 'CSS', 'React', 'Node.js', 'Figma', 'Tailwind', ]
 	  },
-	  {
-		id: 3,
-		title: 'Yoga Space',
-		role: 'UX & UI designer ',
-		description: `UX/UI design for the yoga studio. The website will serve as an online hub for current and potential clients, offering information about classes, schedules, instructors, and wellness resources. `,
-		image: imageProject3,
-		gitUrl:
-		  'https://www.behance.net/gallery/217056913/Yoga-Space',
-		previewUrl:
-		  'https://www.behance.net/gallery/217056913/Yoga-Space',
-		  labels: ['Figma', 'UX', 'UI', 'Prototyping', 'Wireframing', 'Design principles' ],
-	  },
-	{
-	  id: 4,
-	  title: 'UX/UI Design Case Study',
-	  role: 'UX & UI designer ',
-	  description: `This project is a design case study project for an audiobook app for children that will help occupy 
-	  child's time productively. While working on the project, I studied the principles 
-	  of UX/UI design and the design thinking process. I also have improved my skills in Figma, enhancing my proficiency in creating prototypes and wireframes. 
-	  I worked on developing visual design elements and accessibility features for this application.`,
-	  image: imageProject4,
-	  gitUrl:
-		'https://www.behance.net/gallery/186796671/UXUI-Design-Case-Study-The-magic-library',
-	  previewUrl:
-		'https://www.behance.net/gallery/186796671/UXUI-Design-Case-Study-The-magic-library',
-		labels: ['Figma', 'UX design principles', 'UI', 'Design thinking process']
-	},
+	//   {
+	// 	id: 3,
+	// 	title: 'Yoga Space',
+	// 	role: 'UX & UI designer ',
+	// 	description: `UX/UI design for the yoga studio. The website will serve as an online hub for current and potential clients, offering information about classes, schedules, instructors, and wellness resources. `,
+	// 	image: imageProject3,
+	// 	gitUrl:
+	// 	  'https://www.behance.net/gallery/217056913/Yoga-Space',
+	// 	previewUrl:
+	// 	  'https://www.behance.net/gallery/217056913/Yoga-Space',
+	// 	  labels: ['Figma', 'UX', 'UI', 'Prototyping', 'Wireframing', 'Design principles' ],
+	//   },
+
 	{
 		id: 5,
 		title: 'Anafragipana.art',
@@ -109,6 +95,21 @@ export const projectsData = [
 		previewUrl:
 		  'https://tictactoes-game.netlify.app/',
 		  labels: ['HTML', 'CSS', 'JavaScript', 'React', ],
+	  },
+	  {
+		id: 4,
+		title: 'UX/UI Design Case Study',
+		role: 'UX & UI designer ',
+		description: `This project is a design case study project for an audiobook app for children that will help occupy 
+		child's time productively. While working on the project, I studied the principles 
+		of UX/UI design and the design thinking process. I also have improved my skills in Figma, enhancing my proficiency in creating prototypes and wireframes. 
+		I worked on developing visual design elements and accessibility features for this application.`,
+		image: imageProject4,
+		gitUrl:
+		  'https://www.behance.net/gallery/186796671/UXUI-Design-Case-Study-The-magic-library',
+		previewUrl:
+		  'https://www.behance.net/gallery/186796671/UXUI-Design-Case-Study-The-magic-library',
+		  labels: ['Figma', 'UX design principles', 'UI', 'Design thinking process']
 	  },
 	  
 	// {
