@@ -38,7 +38,7 @@ const HeroSection = () => {
                 1000,
                 'Front-end Developer',
                 1000,
-                'UX/UI Designer',
+                'Web Developer',
                 1000,
               ]}
               wrapper="span"
@@ -51,13 +51,13 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-primary-light md:mr-10 dark:text-primary-dark sm:text-lg mb-4 md:mb-6 lg:text-xl">
-            Creative and empathetic Front-end Developer with a passion for UX/UI
-            design and crafting intuitive and user-centered products. My
-            experience spans from designing custom jewelry to building
-            interactive web interfaces, blending aesthetics with functionality.
-            I’m driven by an empathy to users and desire to create
-            equity-focused applications that truly meet user needs, combining
-            technical skills with a deep understanding of design principles.
+            Creative and empathetic Front-end Developer with UX/UI design skills
+            who creates intuitive and user-centered products. My experience
+            spans from designing custom jewelry to building interactive web
+            interfaces, blending aesthetics with functionality. I’m driven by an
+            empathy to users and desire to create equity-focused applications
+            that truly meet user needs, combining technical skills with a deep
+            understanding of design principles.
           </p>
 
           <div>
