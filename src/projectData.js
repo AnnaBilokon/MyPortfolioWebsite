@@ -6,6 +6,7 @@ import imageProject5 from './images/project5.jpg'
 import imageProject9 from './images/project9.png'
 import imageProject7 from './images/project7.png'
 import imageProject8 from './images/project8.svg'
+import imageProject10 from './images/project10.svg'
 
 export const projectsData = [
 	{
@@ -19,6 +20,17 @@ export const projectsData = [
 		previewUrl:
 		  'https://futuresolution.netlify.app/',
 		labels: ['Typescript', 'Next js', 'React', 'Figma', 'Tailwind', 'Framer Motion', ],
+	  },
+	  {
+		id: 10,
+		title: 'Market Place',
+		role: 'Front-end developer',
+		description: `This is a modern marketplace web app where users can browse, buy, and sell companies. Built with Next.js 15 (App Router & Server Actions), Supabase (Auth & Database), and TailwindCSS with ShadCN/UI, the project focuses on a smooth and secure user experience.`,
+		image: imageProject10,
+		gitUrl: 'https://github.com/AnnaBilokon/MarketPlace',
+		previewUrl:
+		  'https://market-place-next-kappa.vercel.app/',
+		labels: ['Typescript', 'HTML', 'React','Next js', 'Tailwind', 'Supabase', 'Vercel','Shadcn'],
 	  },
 	{
 		id: 8,
