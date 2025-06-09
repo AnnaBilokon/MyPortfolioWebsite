@@ -24,7 +24,7 @@ const Footer = () => {
           </IconContext.Provider>
         </a>
         <p className="text-slate-400 text-sm md:text-base mt-6">
-          2025 Anna Bilokon. All rights reserved.
+          2022-2025 Anna Bilokon. All rights reserved.
         </p>
       </div>
     </footer>

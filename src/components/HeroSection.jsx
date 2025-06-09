@@ -51,13 +51,16 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-primary-light md:mr-10 dark:text-primary-dark sm:text-lg mb-4 md:mb-6 lg:text-xl">
-            Creative and empathetic Front-end Developer with UX/UI design skills
-            who creates intuitive and user-centered products. My experience
-            spans from designing custom jewelry to building interactive web
-            interfaces, blending aesthetics with functionality. I’m driven by an
-            empathy to users and desire to create equity-focused applications
-            that truly meet user needs, combining technical skills with a deep
-            understanding of design principles.
+            Creative and passionate Frontend developer with UX/UI design skills
+            who wants to make a meaningful impact through my work. My experience
+            spans from designing custom jewelry to building responsive,
+            innovative, and user-friendly interfaces, blending aesthetics with
+            functionality. I’m expanding my backend expertise with Python,
+            Django, Flask, REST APIs, Docker, and Azure, aiming to grow into a
+            Fullstack Developer. I'm driven by curiosity and a strong empathy
+            for users. I stay updated on industry standards and best practices
+            to enhance user experience. By combining software engineering with
+            user experience design.
           </p>
 
           <div>
