@@ -64,6 +64,7 @@ const ProjectSection = () => {
             role={project.role}
             description={project.description}
             imgUrl={project.image}
+            video={project.video}
             gitUrl={project.gitUrl}
             previewUrl={project.previewUrl}
             labels={project.labels}
