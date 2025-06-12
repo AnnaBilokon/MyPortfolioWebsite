@@ -5,6 +5,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 
 const ProjectCard = ({
   imgUrl,
+  video,
   title,
   role,
   description,
@@ -18,6 +19,8 @@ const ProjectCard = ({
     // offset: ['end end', 'start start'],
   })
 
+  const isVideo = Boolean(video)
+
   const y = useTransform(scrollYProgress, [0, 1], [-100, 100])
 
   return (
@@ -29,11 +32,24 @@ const ProjectCard = ({
             className="h-80 w-full md:w-[500px] md:h-full rounded-xl relative group"
           >
             <div className="shadow-lg rounded-lg">
-              <img
-                src={imgUrl}
-                alt="project"
-                className="w-full h-52 md:h-80 object-cover rounded-xl"
-              />
+              {isVideo ? (
+                <video
+                  src={video}
+                  controls
+                  poster={imgUrl}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-52 md:h-80 object-cover rounded-xl"
+                />
+              ) : (
+                <img
+                  src={imgUrl}
+                  alt="project"
+                  className="w-full h-52 md:h-80 object-cover rounded-xl"
+                />
+              )}
             </div>
 
             <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-52 md:h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:rounded-xl group-hover:bg-opacity-80 transition-all duration-500 ">
