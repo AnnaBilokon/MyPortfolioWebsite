@@ -7,8 +7,22 @@ import imageProject9 from './images/project9.png'
 import imageProject7 from './images/project7.png'
 import imageProject8 from './images/project8.svg'
 import imageProject10 from './images/project10.svg'
+import imageProject11 from './assets/Movie.mp4'
+import MovieThumbnail from './images/MovieThumbnail.png'
 
 export const projectsData = [
+		{
+		id: 11,
+		title: 'Movie App',
+		role: 'Front-end developer',
+		description: `Developed a cross-platform React Native & Expo movie app integrating the TMDb API to fetch real-time data, featuring debounced high-performance search, a personalized trending algorithm based on user history, robust loading/error handling, and a scalable component-driven architecture ready for full CRUD via a Node.js backend. Bookmark and profile screens are planned next. `,
+		image: MovieThumbnail,   
+        video: imageProject11,      
+		gitUrl: 'https://github.com/AnnaBilokon/react-native-movie',
+		previewUrl:
+		  '',
+		labels: ['React Native', 'Typescript', 'TailwindCss', 'Expo framework', 'Appwrite', 'TMDb API', ],
+	  },
 	{
 		id: 1,
 		title: 'Future Solution',
