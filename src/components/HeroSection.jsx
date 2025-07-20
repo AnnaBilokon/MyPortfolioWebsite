@@ -36,9 +36,9 @@ const HeroSection = () => {
               sequence={[
                 'Anna Bilokon',
                 1000,
-                'Front-end Developer',
+                'Full-stack Developer',
                 1000,
-                'Web Developer',
+                'Front-end Developer',
                 1000,
               ]}
               wrapper="span"
@@ -51,12 +51,12 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-primary-light md:mr-10 dark:text-primary-dark sm:text-lg mb-4 md:mb-6 lg:text-xl">
-            Creative and passionate Frontend developer with UX/UI design skills
+            Creative and passionate Front-end developer with UX/UI design skills
             who wants to make a meaningful impact through my work. My experience
             spans from designing custom jewelry to building responsive,
             innovative, and user-friendly interfaces, blending aesthetics with
             functionality. I’m expanding my backend expertise with Python,
-            Django, Flask, REST APIs, Docker, and Azure, aiming to grow into a
+            Django, REST APIs, Docker, and Azure, aiming to grow into a
             Fullstack Developer. I'm driven by curiosity and a strong empathy
             for users. I stay updated on industry standards and best practices
             to enhance user experience. By combining software engineering with

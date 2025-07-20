@@ -25,7 +25,7 @@ const AboutSection = () => {
             ensuring all users can easily understand and navigate them.
             <br />I love{' '}
             <span className="font-semibold text-[#bb86fc]">
-              solving problems
+              to solve problems
             </span>{' '}
             and making things work! I work great in teams and enjoy
             collaborating with others to bring ideas to life.
@@ -41,7 +41,7 @@ const AboutSection = () => {
             and always excited{' '}
             <span className="font-semibold text-[#bb86fc]">to learn </span>{' '}
             something new. I care about creating applications that not only look
-            good, but are also accessible and intuitive for every user.
+            good, but are also accessible and intuitive.
             <br />
             <span className="font-semibold text-[#bb86fc]">
               Paying attention to the little details
