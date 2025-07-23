@@ -45,6 +45,6 @@ Back-end: Node js, npm
 Email: theanna.bilokon@gmail.com
 LinkedIn: https://www.linkedin.com/in/anna-bilokon/
 
-![Portfolio_pic](<public/assets/portfolio_project(1).png>)
+![Portfolio_pic](<public/assets/portfolio_project(1).jpg>)
 ![Portfolio_pic](<public/assets/portfolio_project(2).png>)
 ![Portfolio_pic](<public/assets/portfolio_project(3).png>)
