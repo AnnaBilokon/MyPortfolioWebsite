@@ -57,7 +57,7 @@ const HeroSection = () => {
             innovative, and user-friendly interfaces, blending aesthetics with
             functionality. I’m expanding my backend expertise with Python,
             Django, REST APIs, Docker, and Azure, aiming to grow into a
-            Fullstack Developer. I'm driven by curiosity and a strong empathy
+            Full-stack Developer. I'm driven by curiosity and a strong empathy
             for users. I stay updated on industry standards and best practices
             to enhance user experience. By combining software engineering with
             user experience design.
