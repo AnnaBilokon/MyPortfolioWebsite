@@ -8,9 +8,24 @@ import imageProject7 from './images/project7.png'
 import imageProject8 from './images/project8.svg'
 import imageProject10 from './images/project10.svg'
 import imageProject11 from './assets/Movie.mp4'
+import imageProject12 from './images/project12.png'
 import MovieThumbnail from './images/MovieThumbnail.png'
 
 export const projectsData = [
+			{
+		id: 12,
+		title: 'SkillSwap project',
+		role: 'Full-stack developer',
+		description: `Built a Django web app for users to offer/request skills and connect through messaging and reviews. I 
+focused on implementing user authentication (signup, login, logout) and profile creation/editing, 
+allowing users to manage their skills and personal info. Worked in a Scrum-based team using Trello for 
+task management and GitHub with feature branches for collaboration.`,
+		image: imageProject12,       
+		gitUrl: 'https://github.com/AnnaBilokon/SkillShare',
+		previewUrl:
+		  '',
+		labels: ['Python', 'Django', ' HTML/CSS', ' UI design', 'Bootstrap', 'Git', 'Trello', 'Scrum' ],
+	  },
 		{
 		id: 11,
 		title: 'Movie App',
