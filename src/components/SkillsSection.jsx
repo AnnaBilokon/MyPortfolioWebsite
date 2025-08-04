@@ -10,6 +10,13 @@ import {
   SiTypescript,
   SiNextdotjs,
   SiFigma,
+  SiPython,
+  SiDjango,
+  SiMongodb,
+  SiGit,
+  SiBootstrap,
+  SiJupyter,
+  SiPandas,
 } from 'react-icons/si'
 import { TbBrandFramerMotion } from 'react-icons/tb'
 import { IconContext } from 'react-icons'
@@ -128,7 +135,6 @@ export default function SkillsSection() {
               <SiJavascript />
               <SiReact />
               <SiTypescript />
-              <SiNodedotjs />
               <SiTailwindcss />
               <SiNextdotjs />
               <TbBrandFramerMotion />
@@ -139,10 +145,52 @@ export default function SkillsSection() {
               <SiJavascript />
               <SiReact />
               <SiTypescript />
-              <SiNodedotjs />
               <SiTailwindcss />
               <SiNextdotjs />
               <TbBrandFramerMotion />
+            </div>
+          </IconContext.Provider>
+        </motion.div>
+      </div>
+
+      <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
+        <motion.div
+          className="mt-14"
+          animate={{
+            translateX: '-50%',
+          }}
+          transition={{
+            duration: 40,
+            repeat: Infinity,
+            ease: 'linear',
+            repeatType: 'loop',
+          }}
+        >
+          <IconContext.Provider
+            value={{
+              color: '#bb86fc',
+              className: 'global-class-name',
+              size: '4rem',
+            }}
+          >
+            <div className="flex gap-14 flex-none pr-14">
+              <SiPython />
+              <SiDjango />
+              <SiMongodb />
+              <SiGit />
+              <SiNodedotjs />
+              <SiBootstrap />
+              <SiJupyter />
+              <SiPandas />
+
+              <SiPython />
+              <SiDjango />
+              <SiMongodb />
+              <SiGit />
+              <SiNodedotjs />
+              <SiBootstrap />
+              <SiJupyter />
+              <SiPandas />
             </div>
           </IconContext.Provider>
         </motion.div>
