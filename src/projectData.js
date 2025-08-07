@@ -86,19 +86,19 @@ task management and GitHub with feature branches for collaboration.`,
 	// 	previewUrl: 'https://readmeshop.vercel.app/',
 	// 	labels: ['HTML', 'CSS', 'Typescript', 'React', 'Next.js', 'Figma', 'Tailwind', 'Vercel', 'Clerk']
 	//   },
-	  {
-		id: 9,
-		title: 'ReadMe Bookshop',
-		role: 'Front-end developer',
-		description: `E-commerce website that can be used as an online store, 
-		where you can easily select the desired product by seacrhing, find out detailed information 
-		about it, add products to the cart. Updates are in progress
-		`,
-		image: imageProject9,
-		gitUrl: 'https://github.com/AnnaBilokon/ReadMeShop',
-		previewUrl: 'https://readmeshop.netlify.app/',
-		labels: ['HTML', 'CSS', 'React', 'Node.js', 'Figma', 'Tailwind', ]
-	  },
+	//   {
+	// 	id: 9,
+	// 	title: 'ReadMe Bookshop',
+	// 	role: 'Front-end developer',
+	// 	description: `E-commerce website that can be used as an online store, 
+	// 	where you can easily select the desired product by seacrhing, find out detailed information 
+	// 	about it, add products to the cart. Updates are in progress
+	// 	`,
+	// 	image: imageProject9,
+	// 	gitUrl: 'https://github.com/AnnaBilokon/ReadMeShop',
+	// 	previewUrl: 'https://readmeshop.netlify.app/',
+	// 	labels: ['HTML', 'CSS', 'React', 'Node.js', 'Figma', 'Tailwind', ]
+	//   },
 	//   {
 	// 	id: 3,
 	// 	title: 'Yoga Space',
