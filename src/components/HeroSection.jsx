@@ -59,7 +59,7 @@ const HeroSection = () => {
             Django, REST APIs, Docker, and Azure, aiming to grow into a
             Full-stack Developer. I'm driven by curiosity and a strong empathy
             for users. I stay updated on industry standards and best practices
-            to enhance user experience. By combining software engineering with
+            to enhance user experience by combining software engineering with
             user experience design.
           </p>
 
