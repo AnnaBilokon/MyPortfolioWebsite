@@ -18,46 +18,43 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="section-title text-center">About Me</h2>
           <p className="text-primary-light dark:text-primary-dark text-center md:text-justify lg:text-lg">
-            My <span className="font-semibold text-[#bb86fc]">empathy </span>{' '}
-            makes me passionate about making applications that are accessible to
-            everyone and focused on{' '}
-            <span className="font-semibold text-[#bb86fc]">equity, </span>{' '}
-            ensuring all users can easily understand and navigate them.
-            <br />I love{' '}
+            I care deeply about building technology that makes life{' '}
             <span className="font-semibold text-[#bb86fc]">
-              to solve problems
+              easier, fairer, and more accessible{' '}
             </span>{' '}
-            and making things work! I work great in teams and enjoy
-            collaborating with others to bring ideas to life.
-            <br />I like figuring out the best way to solve tricky challenges,
-            especially when it helps improve the user experience for{' '}
-            <span className="font-semibold text-[#bb86fc]">diverse</span>{' '}
-            audiences.
-            <br />I am quick to pick up
+            for everyone. My journey started in
+            <span className="font-semibold text-[#bb86fc]">
+              creative design,{' '}
+            </span>{' '}
+            where I worked as a jewelry designer and learned how much details
+            matter.
+            <br />
+            Later, I moved into{' '}
+            <span className="font-semibold text-[#bb86fc]">
+              frontend development and UX/UI design
+            </span>{' '}
+            , where I discovered my passion for solving problems and creating
+            intuitive, beautiful applications.
+            <br />
+            Now, I’m expanding into{' '}
+            <span className="font-semibold text-[#bb86fc]">
+              AI and Machine Learning
+            </span>{' '}
+            because I believe intelligent systems should be{' '}
             <span className="font-semibold text-[#bb86fc]">
               {' '}
-              new technologies{' '}
+              understandable, discoverable, and inclusive.{' '}
             </span>{' '}
-            and always excited{' '}
-            <span className="font-semibold text-[#bb86fc]">to learn </span>{' '}
-            something new. I care about creating applications that not only look
-            good, but are also accessible and intuitive.
+            I love the challenge of turning complex problems into solutions that
+            people can actually use and enjoy.
             <br />
+            I’m motivated by{' '}
             <span className="font-semibold text-[#bb86fc]">
-              Paying attention to the little details
+              curiosity, teamwork, and the drive to keep learning.{' '}
             </span>{' '}
-            is super important to me because I know they can make or break the
-            user experience.
-            <br />
-            When it comes to deadlines, I’m all about staying{' '}
-            <span className="font-semibold text-[#bb86fc]">organized</span> and
-            getting things done on time.
-            <br />
-            Whether it’s a big project or a small one, I’m focused on creating
-            products that are{' '}
-            <span className="font-semibold text-[#bb86fc]">
-              understandible, discoverable and easy to use for everyone.{' '}
-            </span>{' '}
+            Whether it’s refining a user interface, training a model, or
+            figuring out the best way to integrate new technology, I bring both
+            creativity and focus to every project.
           </p>
         </div>
       </div>
