@@ -36,7 +36,7 @@ const HeroSection = () => {
               sequence={[
                 'Anna Bilokon',
                 1000,
-                'Full-stack Developer',
+                'AI/ML Engineer',
                 1000,
                 'Front-end Developer',
                 1000,
@@ -51,16 +51,16 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-primary-light md:mr-10 dark:text-primary-dark sm:text-lg mb-4 md:mb-6 lg:text-xl">
-            Creative and passionate Front-end developer with UX/UI design skills
-            who wants to make a meaningful impact through my work. My experience
-            spans from designing custom jewelry to building responsive,
-            innovative, and user-friendly interfaces, blending aesthetics with
-            functionality. I’m expanding my backend expertise with Python,
-            Django, REST APIs, Docker, and Azure, aiming to grow into a
-            Full-stack Developer. I'm driven by curiosity and a strong empathy
-            for users. I stay updated on industry standards and best practices
-            to enhance user experience by combining software engineering with
-            user experience design.
+            AI/ML Engineer with experience in Python, machine learning
+            algorithms, and cloud-based AI deployment. Skilled in building
+            predictive models using classification, regression, and clustering
+            techniques, with hands-on projects that demonstrate real-world
+            applications. With a background in frontend development (React,
+            TypeScript, Next.js, UX/UI), I bring the ability to not only develop
+            ML systems but also design intuitive interfaces that make AI
+            accessible for end users. Passionate about applying AI to solve
+            meaningful problems and currently preparing for Microsoft AI-900
+            certification.
           </p>
 
           <div>
