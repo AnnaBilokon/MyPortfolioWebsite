@@ -1,14 +1,15 @@
 import imageProject1 from './images/project1.svg'
 import imageProject4 from './images/project4.png'
-import imageProject5 from './images/project5.jpg'
 import imageProject7 from './images/project7.png'
 import imageProject8 from './images/project8.svg'
 import imageProject10 from './images/project10.svg'
 import imageProject11 from './assets/Movie.mp4'
 import imageProject12 from './images/project12.png'
+import imageProject13 from './images/project13.png'
 import MovieThumbnail from './images/MovieThumbnail.png'
 
 export const projectsData = [
+
 			{
 		id: 12,
 		title: 'SkillSwap project',
@@ -22,6 +23,20 @@ task management and GitHub with feature branches for collaboration.`,
 		previewUrl:
 		  '',
 		labels: ['Python', 'Django', ' HTML/CSS', ' UI design', 'Bootstrap', 'Git', 'Trello', 'Scrum' ],
+	  },
+	  				{
+		id: 13,
+		title: 'SopSmart project',
+		role: 'Front-end developer',
+		description: `Built a Next.js web app with a clean Scandinavian UI that helps users search for household items 
+and see how to sort them correctly. Implemented bilingual support (English/Swedish), smart confidence-based search 
+with suggestions, and clear at-home disposal instructions. Added mock recycling station data for items like batteries 
+and glass, and deployed the app on Vercel with TailwindCSS and shadcn/ui for styling.`,
+		image: imageProject13,       
+		gitUrl: 'https://github.com/AnnaBilokon/SopSmart',
+		previewUrl:
+		  'https://sop-smart.vercel.app/',
+		labels: ['React', 'TypeScript', ' Next.js', ' UI design', 'TailwindCSS', 'Git', 'Shadcn', 'Vercel' ],
 	  },
 		{
 		id: 11,
@@ -109,18 +124,18 @@ task management and GitHub with feature branches for collaboration.`,
 	// 	  labels: ['Figma', 'UX', 'UI', 'Prototyping', 'Wireframing', 'Design principles' ],
 	//   },
 
-	{
-		id: 5,
-		title: 'Anafragipana.art',
-		role: 'UX & UI designer | Front-end developer ',
-		description: `Designing and developing the responsive and cross-browser personal website for the graphic designer.
-  Creating visually appealing and functional user experience interface tailored to the specific needs of the client in the field of graphic design. 
-  Prototyping and visualization in Figma, the final website is implemented on Webflow.`,
-		image: imageProject5,
-		gitUrl: 'https://anafragipana.webflow.io/',
-		previewUrl: 'https://anafragipana.webflow.io/',
-		labels: ['Webflow', 'Responsive design','Prototyping', 'Communication', 'Figma']
-	  },
+// 	{
+// 		id: 5,
+// 		title: 'Anafragipana.art',
+// 		role: 'UX & UI designer | Front-end developer ',
+// 		description: `Designing and developing the responsive and cross-browser personal website for the graphic designer.
+//   Creating visually appealing and functional user experience interface tailored to the specific needs of the client in the field of graphic design. 
+//   Prototyping and visualization in Figma, the final website is implemented on Webflow.`,
+// 		image: imageProject5,
+// 		gitUrl: 'https://anafragipana.webflow.io/',
+// 		previewUrl: 'https://anafragipana.webflow.io/',
+// 		labels: ['Webflow', 'Responsive design','Prototyping', 'Communication', 'Figma']
+// 	  },
 	  {
 		id: 7,
 		title: 'Tic-Tac-Toe Game',
