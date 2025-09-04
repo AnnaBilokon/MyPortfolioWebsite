@@ -36,9 +36,9 @@ const HeroSection = () => {
               sequence={[
                 'Anna Bilokon',
                 1000,
-                'AI/ML Engineer',
-                1000,
                 'Front-end Developer',
+                1000,
+                'AI/ML Engineer',
                 1000,
               ]}
               wrapper="span"
@@ -51,16 +51,14 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-primary-light md:mr-10 dark:text-primary-dark sm:text-lg mb-4 md:mb-6 lg:text-xl">
-            AI/ML Engineer with experience in Python, machine learning
-            algorithms, and cloud-based AI deployment. Skilled in building
-            predictive models using classification, regression, and clustering
-            techniques, with hands-on projects that demonstrate real-world
-            applications. With a background in frontend development (React,
-            TypeScript, Next.js, UX/UI), I bring the ability to not only develop
-            ML systems but also design intuitive interfaces that make AI
-            accessible for end users. Passionate about applying AI to solve
-            meaningful problems and currently preparing for Microsoft AI-900
-            certification.
+            I’m a Frontend Developer with experience building responsive and
+            user-friendly applications using React, Next.js, TypeScript, and
+            UX/UI principles. Recently, I’ve started expanding my skills into
+            AI/ML — learning Python, data preprocessing, and machine learning
+            algorithms, while working on practical projects and preparing for
+            the Microsoft AI-900 certification. This combination allows me to
+            not only design and build intuitive applications but also integrate
+            intelligent features powered by machine learning.
           </p>
 
           <div>
