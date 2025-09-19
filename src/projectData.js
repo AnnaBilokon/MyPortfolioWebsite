@@ -6,9 +6,25 @@ import imageProject10 from './images/project10.svg'
 import imageProject11 from './assets/Movie.mp4'
 import imageProject12 from './images/project12.png'
 import imageProject13 from './images/project13.png'
+import imageProject14 from './images/project14.png'
 import MovieThumbnail from './images/MovieThumbnail.png'
 
 export const projectsData = [
+	{
+		id: 14,
+		title: 'Titanic survival prediction project',
+		role: 'Machine learning engineer',
+		description: `Built an interactive ML project that predicts Titanic survival with a clean, data-first experience. 
+		Fully reproducible pipeline (EDA → feature engineering → model evaluation) and a live Streamlit app where you can
+		 enter your own details to instantly see survival probability. Title-aware age imputation and engineered features; 
+		 compared baselines with ensemble models (Random Forest, Gradient Boosting) using stratified CV (up to 83.8% 
+		 accuracy, 0.882 ROC AUC).`,
+		image: imageProject14,       
+		gitUrl: 'https://github.com/AnnaBilokon/titanic-survival-prediction',
+		previewUrl:
+		  'https://titanic-prediction-project.streamlit.app/',
+		labels: ['Python', 'Jupyter Notebook', 'Data preprocessing', 'Feature engineering', 'ML models',  'Scikit-learn', 'Pandas', 'Streamlit' ],
+	  },
 
 			{
 		id: 12,
@@ -65,7 +81,7 @@ and glass, and deployed the app on Vercel with TailwindCSS and shadcn/ui for sty
 	  {
 		id: 10,
 		title: 'Market Place',
-		role: 'Front-end developer',
+		role: 'Full-stack developer',
 		description: `This is a modern marketplace web app where users can browse, buy, and sell companies. Built with Next.js 15 (App Router & Server Actions), Supabase (Auth & Database), and TailwindCSS with ShadCN/UI, the project focuses on a smooth and secure user experience.`,
 		image: imageProject10,
 		gitUrl: 'https://github.com/AnnaBilokon/MarketPlace',
