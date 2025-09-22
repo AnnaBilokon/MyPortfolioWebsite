@@ -7,9 +7,24 @@ import imageProject11 from './assets/Movie.mp4'
 import imageProject12 from './images/project12.png'
 import imageProject13 from './images/project13.png'
 import imageProject14 from './images/project14.png'
+import imageProject15 from './images/project15.png'
 import MovieThumbnail from './images/MovieThumbnail.png'
 
 export const projectsData = [
+	{
+		id: 15,
+		title: 'AI Chatbot – Django Web App with OpenAI & Ollama',
+		role: 'AI/Machine learning engineer',
+		description: `A web-based chatbot built with Django and Tailwind CSS. It allows users to ask questions and get 
+		AI-powered answers in a clean, chat-style interface. The app supports both OpenAI’s GPT models (cloud) and Ollama 
+		(local LLMs), with a provider switcher and conversation history.`,
+		image: imageProject15,       
+		gitUrl: 'https://github.com/AnnaBilokon/django_ai_chatbot',
+		previewUrl:
+		  'https://django-ai-chatbot.onrender.com/',
+		labels: ['Python', 'Django', 'TailwindCSS', 'Machine learning', 'ML models', 'OpenAI', 'Ollama'],
+	  },
+
 	{
 		id: 14,
 		title: 'Titanic survival prediction project',
