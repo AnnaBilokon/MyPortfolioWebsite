@@ -28,7 +28,7 @@ export const projectsData = [
 	{
 		id: 14,
 		title: 'Titanic survival prediction project',
-		role: 'Machine learning engineer',
+		role: 'AI/Machine learning engineer',
 		description: `Built an interactive ML project that predicts Titanic survival with a clean, data-first experience. 
 		Fully reproducible pipeline (EDA → feature engineering → model evaluation) and a live Streamlit app where you can
 		 enter your own details to instantly see survival probability. Title-aware age imputation and engineered features; 
